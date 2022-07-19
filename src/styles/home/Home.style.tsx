@@ -13,9 +13,9 @@ export const Container = styled.div`
 `
 
 export const Text = styled.h1`
-  max-width: 1139px;
+  max-width: 1000px;
   min-height: 192px;
-  font-size: 50px;
+  font-size: 60px;
   text-align: center;
   margin-bottom: -50px;
 `
@@ -24,8 +24,8 @@ export const TextContainer = styled.div`
   display: flex;
   flex-direction: column;
   margin-top: 50px;
-  margin-bottom: 50px;
-  gap: 20px;
+  margin-bottom: 30px;
+  gap: 100px;
 `
 
 export const Author = styled.p`
