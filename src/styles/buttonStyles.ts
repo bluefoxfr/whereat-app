@@ -25,6 +25,26 @@ const Button: ComponentStyleConfig = {
         bg: '#2A2A2A',
       },
     },
+    list: {
+      bg: 'none',
+      fontSize: '32px',
+      fontFamily: 'Poppins',
+      fontWeight: '500',
+      padding: '25px 50px',
+      border: '2px',
+      borderRadius: '22px',
+      borderColor: '#1D1D1D',
+      color: '#1D1D1D',
+      _hover: {
+        bg: '#36BB33',
+        color: '#FAFAFF',
+        borderColor: '#36BB33',
+      },
+      _click: {
+        bg: '#36BB33',
+        borderColor: '#36BB33',
+      },
+    },
   },
 };
 

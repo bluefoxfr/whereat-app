@@ -1,6 +1,6 @@
 import React, { FunctionComponent } from 'react';
 import QtDone from './QtDone/QtDone.component';
-import { NavBar, QtCurrent, QtNext } from './QuestionBar.style';
+import { NavBar, QtCurrent, QtNext, QtFinal } from './QuestionBar.style';
 
 type QuestionBarProps = {
   numberDone: number;
@@ -17,8 +17,8 @@ export const QuestionBar: FunctionComponent<QuestionBarProps> = ({
   return (
     <NavBar>
       <QtDone nbElement={numberDone} />
-      <QtCurrent />
-      <QtNext />
+      {isCurrent ? <QtCurrent /> : null}
+      {isNext ? <QtNext /> : <QtFinal src={'/qt-final.svg'} />}
     </NavBar>
   );
 };

@@ -6,7 +6,7 @@ export const NavBar = styled.div`
   align-content: flex-start;
   justify-content: center;
   align-items: flex-start;
-  align-self: flex-start;
+  align-self: center;
   padding-left: 10px;
   gap: 10px;
 `
