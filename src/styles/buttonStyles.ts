@@ -1,4 +1,4 @@
-import type { ComponentStyleConfig } from "@chakra-ui/react";
+import type { ComponentStyleConfig } from '@chakra-ui/react';
 
 const Button: ComponentStyleConfig = {
   baseStyle: {
@@ -19,13 +19,13 @@ const Button: ComponentStyleConfig = {
       color: '#1D1D1D',
       _hover: {
         bg: '#1D1D1D',
-        color: '#FAFAFF'
+        color: '#FAFAFF',
       },
       _active: {
         bg: '#2A2A2A',
-      }
-    }
-  }
-}
+      },
+    },
+  },
+};
 
 export default Button;

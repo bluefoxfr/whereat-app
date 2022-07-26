@@ -6,11 +6,11 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   gap: 70px;
-  background-color: #E2E2E2;
+  background-color: #e2e2e2;
   position: absolute;
   width: 100%;
   min-height: 100%;
-`
+`;
 
 export const Text = styled.h1`
   max-width: 1000px;
@@ -18,7 +18,7 @@ export const Text = styled.h1`
   font-size: 60px;
   text-align: center;
   margin-bottom: -50px;
-`
+`;
 
 export const TextContainer = styled.div`
   display: flex;
@@ -26,7 +26,7 @@ export const TextContainer = styled.div`
   margin-top: 50px;
   margin-bottom: 30px;
   gap: 100px;
-`
+`;
 
 export const Author = styled.p`
   font-family: 16px;
@@ -34,4 +34,4 @@ export const Author = styled.p`
   order: 4;
   flex-grow: 0;
   margin-top: 20px;
-`
+`;
